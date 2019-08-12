@@ -170,6 +170,8 @@ curl -H 'Accept: application/json' -X GET http://localhost:8080/metrics
 The steps below are from the original Helidon Quickstart that uses Oracle JDK. If you want this example to run with 
 docker, you would need to use the GraalVM virtual machine!
 
+Tests are also disabled, as they would need to run on GraalVM
+
 ## Build the Docker Image
 
 ```
